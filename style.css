@@ -1,0 +1,73 @@
+body {
+    font-family: "Plus Jakarta Sans", "sans-serif" !important;
+    display: flex;
+    flex-direction: column;
+      min-height: 100vh;
+      text-align: center;
+  }
+  
+  .container{
+      flex: 1;
+  }
+ 
+  form { 
+    width: 300px; 
+    margin: auto; 
+}
+  input, button { 
+    display: block; 
+    width: 100%; 
+    margin: 10px 0; 
+    padding: 10px; 
+}
+/* Navbar */
+.navbar{
+    height: 4rem;
+    background-color: white;
+    margin-bottom: 1rem;
+}
+
+.fa-compass{
+    color: #fe424d;
+    font-size: 2rem;
+}
+
+.nav-link{
+    color: #222222 !important;
+}
+
+/* Footer */
+.f-info-links a{
+    color: #222222;
+    text-decoration: none;
+}
+
+.f-info-links a:hover{
+    text-decoration: underline;
+}
+
+/* .f-info-links{
+    width: 100%;
+} */
+
+.f-info{
+    height: 6rem;
+    background-color: #ebebeb;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    justify-content: center;
+    text-align: center;
+    vertical-align: center;
+}
+.f-info-socials i {
+    font-size: 1.2rem;
+    margin-right: 1rem;
+}
+
+/* New Page */
+.edit-btn{
+    background-color: #fe424d !important;
+    border: none !important;
+}
